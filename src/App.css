@@ -1,0 +1,16 @@
+/* Root App styles — actual styles live in src/styles/sudoku.css */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: #0d0d0f;
+  -webkit-tap-highlight-color: transparent;
+}
